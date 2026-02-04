@@ -1,0 +1,216 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PaymentApproved.aspx.cs" Inherits="GGC.UI.Emp.PaymentApproved" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Payment Approved By Finance</title>
+    <style type="text/css">
+        .form-control
+        {
+            display: block;
+            width: 85%;
+            height: 16px;
+            padding: 2px 2px;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+        .form-control:focus
+        {
+            border-color: #66afe9;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+        }
+        .form-control::-moz-placeholder
+        {
+            color: #999;
+            opacity: 1;
+        }
+        .form-control:-ms-input-placeholder
+        {
+            color: #999;
+        }
+        .form-control::-webkit-input-placeholder
+        {
+            color: #999;
+        }
+        
+        .form-control-textarea
+        {
+            display: block;
+            width: 50%;
+            height: 26px;
+            padding: 2px 2px;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        }
+        .form-control-textarea :focus
+        {
+            border-color: #66afe9;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+        }
+        .form-control-textarea ::-moz-placeholder
+        {
+            color: #999;
+            opacity: 1;
+        }
+        .form-control-textarea :-ms-input-placeholder
+        {
+            color: #999;
+        }
+        .form-control-textarea ::-webkit-input-placeholder
+        {
+            color: #999;
+        }
+        .mainbody
+        {
+            width: 1060px;
+            margin: 0px auto;
+        }
+        
+        .button
+        {
+            background-color: #008CBA; /* Blue */
+            border: none;
+            color: white;
+            padding: 2px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../../Styles/style.css" />
+</head>
+<body>
+   <div id="main">
+        <div id="header">
+            <div id="logo">
+                <div id="logo_text">
+                    <!-- class="logo_colour", allows you to change the colour of the text -->
+                    <%--<h1><a href="index.html">simple<span class="logo_colour">style_blue_trees</span></a></h1>--%>
+                    <img src="../../assets/images/logo.jpg" height="100" align="middle" />
+                    <span class="logo_colour"><font size="+2">Maharashtra State Electricity Transmission Company 
+                        LTD.</font></span>
+                </div>
+                <span style="position:absolute;bottom:0px;right:0px">Welcome 
+                    <asp:Label ID="lblLoginname" runat="server" Text=""></asp:Label></span>  
+            </div>
+            <div id="menubar">
+                <ul id="menu">
+                    <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+                    
+                    <%--<li class="selected"><a href="LoadFlowStudy.aspx">Load flow Study</a></li>--%>
+                    <li class="selected"><a href="ProposalApprovalList.aspx">Proposal Approval</a></li>
+                    <li class="selected"><a href="CommFeeList.aspx">Committment Fees</a></li>
+                    <%--<li class="selected"><a href="PaymentApproved.aspx">Committment Fees Approved </a></li>--%>
+                    <%--<li class="selected"><a href="UploadLFS.aspx">Feasibility</a></li>--%>
+                    <li class="selected"><a href="../Emp/EmpLogin.aspx">SignOut</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content_header">
+        </div>
+    <form id="form1" runat="server">
+     <div class="mainbody">
+            <center>
+                <h3>
+                    Committment Fees Approved By Finance List.</h3>
+            </center>
+          <%--  <div>
+                <asp:RadioButtonList ID="RadioButtonList1" runat="server" 
+                    RepeatDirection="Horizontal" RepeatLayout="Flow">
+                    <asp:ListItem Selected="True" Value="1">Complete</asp:ListItem>
+                    <asp:ListItem Value="2">InComplete</asp:ListItem>
+                </asp:RadioButtonList>
+    </div>--%>
+    <table width="100%" align="center" cellspacing="0">
+        <tr>
+            <td>
+                <asp:GridView ID="GVPayments" runat="server" AutoGenerateColumns="False" 
+                    CellPadding="4" ForeColor="#333333" GridLines="Both" 
+                    onrowcommand="GVPayments_RowCommand" 
+                    onrowdatabound="GVPayments_RowDataBound">
+                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                    <Columns>
+                        <asp:BoundField DataField="APPLICATION_NO" HeaderText="APPLICATION NO"  >
+                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="MEDAProjectID" HeaderText="PROJECT ID"  >
+                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="MerchantID" HeaderText="Merchant ID" >
+                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="CustomerID" HeaderText="Customer ID"/>
+                        <asp:BoundField DataField="ORGANIZATION_NAME" HeaderText="Organization Name" />
+                        
+                        <asp:BoundField DataField="TxnNo" HeaderText="Transaction No" >
+                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="TxnDate" HeaderText="Transaction Date" />
+                        <asp:BoundField DataField="TxnAmount" HeaderText="Transaction Amount" >
+                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        </asp:BoundField>
+                        <asp:BoundField DataField="PaymentType" HeaderText="Payment Type" >
+                        <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        </asp:BoundField>
+                        <asp:TemplateField HeaderText="Approve">
+
+                            <ItemTemplate>
+                                <asp:Button ID="btnAppr" Text="Approve" runat="server" CssClass="button"  CommandName="Approve" CommandArgument="<%# Container.DataItemIndex %>" Enabled="false"/>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Upload Letter">
+                            <ItemTemplate>
+                                <asp:Button ID="btnRet" Text="Upload Letter" runat="server" CssClass="button"  CommandName="UploadLetter" CommandArgument="<%# Container.DataItemIndex %>" Enabled="false"/>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        
+                    </Columns>
+                    <EditRowStyle BackColor="#999999" />
+                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                    <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                    <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                    <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                    <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+                </asp:GridView>
+            </td>
+        </tr>
+    </table>
+      </div>
+        <div id="footer">
+            <p>
+                Design and Developed by IT Department, MSETCL.</p>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

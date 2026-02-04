@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Image Name="Image2">
+        <Source>Embedded</Source>
+        <Value>logo</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.08523cm</Top>
+        <Left>6.53933cm</Left>
+        <Height>1.5cm</Height>
+        <Width>3.024cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Textbox Name="Textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>MAHARASHTRA STATE ELECTRICITY TRANSMISSION CO. LTD.</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>Segoe UI</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>CIN No.: U40109MH2005SGC153646</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>Segoe UI</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox1</rd:DefaultName>
+        <Top>1.24093cm</Top>
+        <Left>0.782cm</Left>
+        <Height>1.70067cm</Height>
+        <Width>14.5015cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Name of Office      : </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>Chief Engineer (State Transmission Utility)</Value>
+                <Style>
+                  <FontStyle>Italic</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Office Address      : </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>4th floor, ‘A’ wing, Prakashganga, MSETCL,</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>                                  Plot C -19, E - Block, BKC, Bandra (E), Mumbai - 400051 </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>Contact No.            : </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>(O) 022 - 26595176, (P) 26595175</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Email Id                  : </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>cestu@mahatransco.in</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Website                  : </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>www.mahatransco.in</Value>
+                <ActionInfo>
+                  <Actions>
+                    <Action>
+                      <Hyperlink>http://www.mahatransco.in/</Hyperlink>
+                    </Action>
+                  </Actions>
+                </ActionInfo>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>3.1671cm</Top>
+        <Left>0.782cm</Left>
+        <Height>2.886cm</Height>
+        <Width>14.5015cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>DEEMED GRID CONNECTIVITY</Value>
+                <Style>
+                  <FontStyle>Italic</FontStyle>
+                  <FontFamily>Segoe UI</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>Underline</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox4</rd:DefaultName>
+        <Top>7.5486cm</Top>
+        <Left>4.5285cm</Left>
+        <Height>0.854cm</Height>
+        <Width>7.74933cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox5">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>To,</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox5</rd:DefaultName>
+        <Top>9.10435cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>0.52154cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+      </Textbox>
+      <Textbox Name="SPV_Name">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!SPV_Name.Value, "dsDeemed_Table")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>SPV_Name</rd:DefaultName>
+        <Top>9.77053cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>0.44803cm</Height>
+        <Width>13.44317cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+      </Textbox>
+      <Textbox Name="Add_correspondence">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!Add_correspondence.Value, "dsDeemed_Table")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Add_correspondence</rd:DefaultName>
+        <Top>10.26795cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>1.4255cm</Height>
+        <Width>7.7705cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="subject">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!subject.Value, "dsDeemed_Data")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>subject</rd:DefaultName>
+        <Top>12.0142cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>1.89117cm</Height>
+        <Width>15.37663cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox17">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Dear Sirs,</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox17</rd:DefaultName>
+        <Top>14.16488cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>1pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="PROJECT_CAPACITY_MW">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>="In context to the above subject, you have applied for Grid Connectivity to " &amp; First(Fields!Quantum_power_injected_MW.Value, "dsDeemed_Table") &amp; " MW " &amp; "Solar Power Project proposed under Mukhyamantri Saur Krishi Vahini Yojana - 2.0 through MEDA’s Single Window Portal for online grid connectivity."</Value>
+                <Style>
+                  <Format>0.00;(0.00)</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>PROJECT_CAPACITY_MW</rd:DefaultName>
+        <Top>14.77293cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>1.2985cm</Height>
+        <Width>15.37663cm</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+      </Textbox>
+      <Textbox Name="MsgData">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!MsgData.Value, "dsDeemed_Data")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>MsgData</rd:DefaultName>
+        <Top>16.4592cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>1.72183cm</Height>
+        <Width>15.37663cm</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox23">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Thanking you.</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox23</rd:DefaultName>
+        <Top>20.26342cm</Top>
+        <Left>0.60537cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.77cm</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox24">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Yours Faithfully,</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox24</rd:DefaultName>
+        <Top>20.87725cm</Top>
+        <Left>11.1887cm</Left>
+        <Height>0.81167cm</Height>
+        <Width>3.74883cm</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox22">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Please note that this is Deemed Grid Connectivity &amp; detailed Grid Connectivity will be issued only after payment of 99,900/- towards Processing Fee and submission of </Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>PPA for said project.</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                  <Color>#000000</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox22</rd:DefaultName>
+        <Top>18.41134cm</Top>
+        <Left>0.49625cm</Left>
+        <Height>1.53133cm</Height>
+        <Width>15.37663cm</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox26">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Chief Engineer (STU)</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox26</rd:DefaultName>
+        <Top>22.77167cm</Top>
+        <Left>11.00221cm</Left>
+        <Height>0.89633cm</Height>
+        <Width>4.17217cm</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="EMP_NAME">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!EMP_NAME.Value, "dsDeemed_EmpData")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>EMP_NAME</rd:DefaultName>
+        <Top>21.86531cm</Top>
+        <Left>10.40225cm</Left>
+        <Height>0.6cm</Height>
+        <Width>5.14583cm</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="ZONE">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>="3)    The Chief Engineer, EHV PC O&amp;M Zone, MSETCL: " &amp; First(Fields!ZONE.Value, "dsDeemed_Table")</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>ZONE</rd:DefaultName>
+        <Top>30.10111cm</Top>
+        <Left>0.73237cm</Left>
+        <Height>0.37536cm</Height>
+        <Width>14.81571cm</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox20">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Date :</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox20</rd:DefaultName>
+        <Top>6.32037cm</Top>
+        <Left>8.35237cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>17</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox21">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Copy s.w.r.s. to:</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>
+1)    The Chairman and Managing Director, C. O., MSETCL, Mumbai
+2)    The Director General, MEDA, Aundh Road, Opposite Spicer College,Near                                Commissionerate of Animal Husbandry, Aundh, Pune – 411007
+3)    The Director (Operations) C. O., MSETCL, Mumbai </Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Copy f.w.c. to:</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>
+1)    The Chief Engineer, MSLDC, Airoli
+2)    The Chief Engineer (Project-Schemes) C. O., MSETCL, Mumbai
+</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox21</rd:DefaultName>
+        <Top>26.28053cm</Top>
+        <Left>0.782cm</Left>
+        <Height>3.33375cm</Height>
+        <Width>14.76608cm</Width>
+        <ZIndex>18</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox25">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>4)    The Chief Engineer (Renewable Energy), MSEDCL, Prakashgad, Mumbai
+5)    The Chief Engineer, Zone: ____, MSEDCL</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox25</rd:DefaultName>
+        <Top>30.88956cm</Top>
+        <Left>0.782cm</Left>
+        <Height>1.82767cm</Height>
+        <Width>14.86863cm</Width>
+        <ZIndex>19</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="APP_STATUS_DT">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Today()</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                  <Format>dd-MM-yyyy</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>APP_STATUS_DT</rd:DefaultName>
+        <Top>6.32037cm</Top>
+        <Left>10.8712cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.5cm</Width>
+        <ZIndex>20</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>14.425in</Height>
+    <Style />
+  </Body>
+  <Width>6.5in</Width>
+  <Page>
+    <PageFooter>
+      <Height>2.54cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox6">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Disclaimer: This is system generated report (Online Application No:</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox6</rd:DefaultName>
+          <Top>1.26153cm</Top>
+          <Left>1.62137cm</Left>
+          <Height>0.6cm</Height>
+          <Width>10.65646cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="APPLICATION_NO">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!APPLICATION_NO.Value, "dsDeemed_Table") &amp; " )"</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>APPLICATION_NO</rd:DefaultName>
+          <Top>1.26153cm</Top>
+          <Left>12.32112cm</Left>
+          <Height>0.6cm</Height>
+          <Width>3.55176cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="dsDeemed">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>aa367017-d9c8-4e05-9dbc-e60952743d3a</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="dsDeemed_Table">
+      <Query>
+        <DataSourceName>dsDeemed</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="SRNO">
+          <DataField>SRNO</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="APPLICATION_NO">
+          <DataField>APPLICATION_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MEDAProjectID">
+          <DataField>MEDAProjectID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GSTIN_NO">
+          <DataField>GSTIN_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_NAME_1">
+          <DataField>CONT_PER_NAME_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_DESIG_1">
+          <DataField>CONT_PER_DESIG_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_PHONE_1">
+          <DataField>CONT_PER_PHONE_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_MOBILE_1">
+          <DataField>CONT_PER_MOBILE_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_FAX_1">
+          <DataField>CONT_PER_FAX_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_EMAIL_1">
+          <DataField>CONT_PER_EMAIL_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_NAME_2">
+          <DataField>CONT_PER_NAME_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_DESIG_2">
+          <DataField>CONT_PER_DESIG_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_PHONE_2">
+          <DataField>CONT_PER_PHONE_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_MOBILE_2">
+          <DataField>CONT_PER_MOBILE_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_FAX_2">
+          <DataField>CONT_PER_FAX_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONT_PER_EMAIL_2">
+          <DataField>CONT_PER_EMAIL_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MEDA_REC_LETTER_NO">
+          <DataField>MEDA_REC_LETTER_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MEDA_REC_LETTER_DT">
+          <DataField>MEDA_REC_LETTER_DT</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="NATURE_OF_APP">
+          <DataField>NATURE_OF_APP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROJECT_TYPE">
+          <DataField>PROJECT_TYPE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROJECT_CAPACITY_MW">
+          <DataField>PROJECT_CAPACITY_MW</DataField>
+          <rd:TypeName>System.Single</rd:TypeName>
+        </Field>
+        <Field Name="PROJECT_LOC">
+          <DataField>PROJECT_LOC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROJECT_TALUKA">
+          <DataField>PROJECT_TALUKA</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROJECT_DISTRICT">
+          <DataField>PROJECT_DISTRICT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SCHEDULED_COMM_DATE">
+          <DataField>SCHEDULED_COMM_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="NAME_TRANS_LICENSEE">
+          <DataField>NAME_TRANS_LICENSEE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GENERATION_VOLTAGE">
+          <DataField>GENERATION_VOLTAGE</DataField>
+          <rd:TypeName>System.Single</rd:TypeName>
+        </Field>
+        <Field Name="INJECTION_VOLTAGE">
+          <DataField>INJECTION_VOLTAGE</DataField>
+          <rd:TypeName>System.Single</rd:TypeName>
+        </Field>
+        <Field Name="POINT_OF_INJECTION">
+          <DataField>POINT_OF_INJECTION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DISTANCE_FROM_PLANT">
+          <DataField>DISTANCE_FROM_PLANT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="VOLT_LEVEL_SUBSTATION">
+          <DataField>VOLT_LEVEL_SUBSTATION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SALE_OF_POWER">
+          <DataField>SALE_OF_POWER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INTER_STATE">
+          <DataField>INTER_STATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOTAL_REQUIRED_LAND">
+          <DataField>TOTAL_REQUIRED_LAND</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LAND_IN_POSSESSION">
+          <DataField>LAND_IN_POSSESSION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOTAL_PRIVATE_LAND">
+          <DataField>TOTAL_PRIVATE_LAND</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TOTAL_FOREST_LAND">
+          <DataField>TOTAL_FOREST_LAND</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATUS_FOREST_LAND">
+          <DataField>STATUS_FOREST_LAND</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BIRD_SANCTURY_ETC">
+          <DataField>BIRD_SANCTURY_ETC</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MODE_OF_PAYMENT">
+          <DataField>MODE_OF_PAYMENT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ACCOUNT_NO">
+          <DataField>ACCOUNT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BANK_NAME">
+          <DataField>BANK_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BRANCH_NAME">
+          <DataField>BRANCH_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IFSC_CODE">
+          <DataField>IFSC_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AMOUNT">
+          <DataField>AMOUNT</DataField>
+          <rd:TypeName>System.Single</rd:TypeName>
+        </Field>
+        <Field Name="TRANSACTION_DATE">
+          <DataField>TRANSACTION_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="WF_STATUS_CD_C">
+          <DataField>WF_STATUS_CD_C</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ROLE_CD">
+          <DataField>ROLE_CD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LOC_CODE">
+          <DataField>LOC_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SUB_LOC_CODE">
+          <DataField>SUB_LOC_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IS_ASSIGNED">
+          <DataField>IS_ASSIGNED</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FEASIBILITY_REPORT_PHOTO_NAME">
+          <DataField>FEASIBILITY_REPORT_PHOTO_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FEASIBILITY_REPORT_PHOTO_PATH">
+          <DataField>FEASIBILITY_REPORT_PHOTO_PATH</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IS_ACTIVE">
+          <DataField>IS_ACTIVE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CREATED_DT">
+          <DataField>CREATED_DT</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CREATED_BY">
+          <DataField>CREATED_BY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UPDATED_DT">
+          <DataField>UPDATED_DT</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="UPDATED_BY">
+          <DataField>UPDATED_BY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TYPE_OF_GENERATION">
+          <DataField>TYPE_OF_GENERATION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Quantum_power_injected_MW">
+          <DataField>Quantum_power_injected_MW</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="PROMOTOR_NAME">
+          <DataField>PROMOTOR_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Latitude">
+          <DataField>Latitude</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Longitude">
+          <DataField>Longitude</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TYPE_OF_FUEL">
+          <DataField>TYPE_OF_FUEL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STEP_UP_GEN_VOLT">
+          <DataField>STEP_UP_GEN_VOLT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IS_CAPTIVE_POWER_PLANT">
+          <DataField>IS_CAPTIVE_POWER_PLANT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAME_INJECTING_PARTY">
+          <DataField>NAME_INJECTING_PARTY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NAME_OWNER_OF_SS">
+          <DataField>NAME_OWNER_OF_SS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="INJECTED_EXISTING_PROPOSED_NW">
+          <DataField>INJECTED_EXISTING_PROPOSED_NW</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PPA_POWER_TOBE_INJECTED">
+          <DataField>PPA_POWER_TOBE_INJECTED</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AGGREEMENT_WITH_TRADER">
+          <DataField>AGGREEMENT_WITH_TRADER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATUS_FUEL_LINKAGE">
+          <DataField>STATUS_FUEL_LINKAGE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATUS_OF_WATER_SUPPLY">
+          <DataField>STATUS_OF_WATER_SUPPLY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TYPE_OF_LOAD">
+          <DataField>TYPE_OF_LOAD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="QUANTUM_POWER_DRAWN">
+          <DataField>QUANTUM_POWER_DRAWN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DRAWAL_VOLTAGE_LEVEL">
+          <DataField>DRAWAL_VOLTAGE_LEVEL</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="REACTIVE_POWER_REQ">
+          <DataField>REACTIVE_POWER_REQ</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STATUS_OF_APPLICANT">
+          <DataField>STATUS_OF_APPLICANT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MEDALettername">
+          <DataField>MEDALettername</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ispaymentdone">
+          <DataField>ispaymentdone</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="paymentdate">
+          <DataField>paymentdate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CustomerID">
+          <DataField>CustomerID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="app_status">
+          <DataField>app_status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="APP_STATUS_DT">
+          <DataField>APP_STATUS_DT</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ZONE">
+          <DataField>ZONE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="docTech">
+          <DataField>docTech</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="isMEDAApp">
+          <DataField>isMEDAApp</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PAN_TAN_NO">
+          <DataField>PAN_TAN_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GSTIN_CERTIFICATE">
+          <DataField>GSTIN_CERTIFICATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsGSTIN">
+          <DataField>IsGSTIN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="USER_NAME">
+          <DataField>USER_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Provisional_GSTIN">
+          <DataField>Provisional_GSTIN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="COMMITEE_LETTER">
+          <DataField>COMMITEE_LETTER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SLDDocName">
+          <DataField>SLDDocName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AppFormDocName">
+          <DataField>AppFormDocName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="isAppApproved">
+          <DataField>isAppApproved</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AppApproveComment">
+          <DataField>AppApproveComment</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="otherdocname">
+          <DataField>otherdocname</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="comments">
+          <DataField>comments</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="docLFS">
+          <DataField>docLFS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="docLFSOther">
+          <DataField>docLFSOther</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="isProposalpprove">
+          <DataField>isProposalpprove</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProposalpproveBy">
+          <DataField>ProposalpproveBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CommittmentFees">
+          <DataField>CommittmentFees</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="IsCommittmentFeesPaid">
+          <DataField>IsCommittmentFeesPaid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IssueLetter">
+          <DataField>IssueLetter</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IssueLetterDt">
+          <DataField>IssueLetterDt</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="IS_ALREADY_APPLIED">
+          <DataField>IS_ALREADY_APPLIED</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsAddCapacity">
+          <DataField>IsAddCapacity</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GCApprLetterNo_Date">
+          <DataField>GCApprLetterNo_Date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="docSLDOther3">
+          <DataField>docSLDOther3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="docSLDOther4">
+          <DataField>docSLDOther4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SPV_Name">
+          <DataField>SPV_Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ClusterName">
+          <DataField>ClusterName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STU_INJECTION_VOLTAGE">
+          <DataField>STU_INJECTION_VOLTAGE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="STU_POINT_OF_INJECT">
+          <DataField>STU_POINT_OF_INJECT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Add_correspondence">
+          <DataField>Add_correspondence</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsDeemed</rd:DataSetName>
+        <rd:SchemaPath>E:\Ashish\Projects\DotNet\TestRDLC\testRDLCWeb\Deemed.xsd</rd:SchemaPath>
+        <rd:TableName>Table</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="dsDeemed_EmpData">
+      <Query>
+        <DataSourceName>dsDeemed</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="SRNO">
+          <DataField>SRNO</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="SAPID">
+          <DataField>SAPID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PASSWORD">
+          <DataField>PASSWORD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMP_NAME">
+          <DataField>EMP_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DESIGNATION">
+          <DataField>DESIGNATION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DEPARTMENT_NAME">
+          <DataField>DEPARTMENT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ROLE_ID">
+          <DataField>ROLE_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="ReportingOfficerSAPID">
+          <DataField>ReportingOfficerSAPID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ZONE">
+          <DataField>ZONE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CIRCLE">
+          <DataField>CIRCLE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DIVISION">
+          <DataField>DIVISION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SUBDIV">
+          <DataField>SUBDIV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CREATED_DT">
+          <DataField>CREATED_DT</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CREATED_BY">
+          <DataField>CREATED_BY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UPDATED_DT">
+          <DataField>UPDATED_DT</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="UPDATED_BY">
+          <DataField>UPDATED_BY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="isFirstLogin">
+          <DataField>isFirstLogin</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="isActive">
+          <DataField>isActive</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EmpEmailID">
+          <DataField>EmpEmailID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EmpMobile">
+          <DataField>EmpMobile</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EmpReportingEmail">
+          <DataField>EmpReportingEmail</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EmpReportingMobile">
+          <DataField>EmpReportingMobile</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ekycid">
+          <DataField>ekycid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsDeemed</rd:DataSetName>
+        <rd:SchemaPath>E:\Ashish\Projects\DotNet\TestRDLC\testRDLCWeb\Deemed.xsd</rd:SchemaPath>
+        <rd:TableName>empDet</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="dsDeemed_Data">
+      <Query>
+        <DataSourceName>dsDeemed</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="subject">
+          <DataField>subject</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MsgData">
+          <DataField>MsgData</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsDeemed</rd:DataSetName>
+        <rd:SchemaPath>E:\Ashish\Projects\DotNet\TestRDLC\testRDLCWeb\Deemed.xsd</rd:SchemaPath>
+        <rd:TableName>RDLCData</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>f829f3cd-b2e5-40c9-bde6-997182d61c72</rd:ReportID>
+</Report>

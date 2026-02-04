@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Receipt" targetNamespace="http://tempuri.org/Receipt.xsd" xmlns:mstns="http://tempuri.org/Receipt.xsd" xmlns="http://tempuri.org/Receipt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Receipt" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Receipt" msprop:Generator_UserDSName="Receipt">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReceiptTable" msprop:Generator_TableClassName="ReceiptTableDataTable" msprop:Generator_TableVarName="tableReceiptTable" msprop:Generator_RowChangedName="ReceiptTableRowChanged" msprop:Generator_TablePropName="ReceiptTable" msprop:Generator_RowDeletingName="ReceiptTableRowDeleting" msprop:Generator_RowChangingName="ReceiptTableRowChanging" msprop:Generator_RowEvHandlerName="ReceiptTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ReceiptTableRowDeleted" msprop:Generator_RowClassName="ReceiptTableRow" msprop:Generator_UserTableName="ReceiptTable" msprop:Generator_RowEvArgName="ReceiptTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ApplicationNo" msprop:Generator_ColumnVarNameInTable="columnApplicationNo" msprop:Generator_ColumnPropNameInRow="ApplicationNo" msprop:Generator_ColumnPropNameInTable="ApplicationNoColumn" msprop:Generator_UserColumnName="ApplicationNo" type="xs:string" minOccurs="0" />
+              <xs:element name="MerchantID" msprop:Generator_ColumnVarNameInTable="columnMerchantID" msprop:Generator_ColumnPropNameInRow="MerchantID" msprop:Generator_ColumnPropNameInTable="MerchantIDColumn" msprop:Generator_UserColumnName="MerchantID" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" msprop:Generator_UserColumnName="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="TxnAmount" msprop:Generator_ColumnVarNameInTable="columnTxnAmount" msprop:Generator_ColumnPropNameInRow="TxnAmount" msprop:Generator_ColumnPropNameInTable="TxnAmountColumn" msprop:Generator_UserColumnName="TxnAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="TxnDate" msprop:Generator_ColumnVarNameInTable="columnTxnDate" msprop:Generator_ColumnPropNameInRow="TxnDate" msprop:Generator_ColumnPropNameInTable="TxnDateColumn" msprop:Generator_UserColumnName="TxnDate" type="xs:string" minOccurs="0" />
+              <xs:element name="TxnNo" msprop:Generator_ColumnVarNameInTable="columnTxnNo" msprop:Generator_ColumnPropNameInRow="TxnNo" msprop:Generator_ColumnPropNameInTable="TxnNoColumn" msprop:Generator_UserColumnName="TxnNo" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDAProjectID" msprop:Generator_ColumnVarNameInTable="columnMEDAProjectID" msprop:Generator_ColumnPropNameInRow="MEDAProjectID" msprop:Generator_ColumnPropNameInTable="MEDAProjectIDColumn" msprop:Generator_UserColumnName="MEDAProjectID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

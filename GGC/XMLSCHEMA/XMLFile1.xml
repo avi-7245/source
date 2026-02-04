@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<response>
+  <success>OK</success>
+  <command>esign</command>
+  <requestid>133287055336757448</requestid>
+  <date>2023-05-16T15:42:13.6757448+05:30</date>
+  <responsedata>
+    <items>
+      <item>
+        <txn>{{1234567}}</txn>
+        <reference>8F6DE6E429770F7C656C694095B069CCA17E78E7</reference>
+        <redirecturl>https://gctest.mahatransco.in/api/esign/v1.0/{{1234567}}/8F6DE6E429770F7C656C694095B069CCA17E78E7</redirecturl>
+        <getsigneddocurl>https://gctest.mahatransco.in/apix/getdoc/v1.0/{{1234567}}/8F6DE6E429770F7C656C694095B069CCA17E78E7</getsigneddocurl>
+      </item>
+    </items>
+  </responsedata>
+</response>

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>FGC Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid;
+            padding: 8px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .content {
+            text-align: justify;
+        }
+
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .table-sm {
+            padding: 5px;
+            font-size: 14px;
+            border-spacing: 0;
+        }
+
+        .table-justify th, .table-justify td {
+            text-align: justify;
+        }
+
+        .table-center th, .table-center td {
+            text-align: center;
+        }
+
+        .table-fixed-50 tr th, .table-fixed-50 tr td {
+            width: 50%;
+        }
+
+        .table-fixed-25 tr th, .table-fixed-25 tr td {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h3>MAHARASHTRA STATE ELECTRICITY TRANSMISSION CO. LTD.</h3>
+        <p><b>Online Grid Connectivity Application</b></p>
+    </div>
+
+    <table class="table-fixed-25">
+        <tr>
+            <th align="left">Project ID:</th>
+            <td align="right">{{MEDAProjectID}}</td>
+            <th align="left">Application ID:</th>
+            <td align="right">{{APPLICATION_NO}}</td>
+        </tr>
+    </table>
+    <table class="table-justify table-fixed-50 ">
+        <tr>
+            <th>Name of the Applicant / SPD:</th>
+            <td>{{NAME_OF_SPD}}</td>
+        </tr>
+        <tr>
+            <th>Address For Correspondance:</th>
+            <td>{{ADDRESS_FOR_CORRESPONDENCE}}</td>
+        </tr>
+        <tr>
+            <th>Contact Person:</th>
+            <td>{{CONT_PER_NAME_1}}</td>
+        </tr>
+        <tr>
+            <th>Designation:</th>
+            <td>{{CONT_PER_DESIG_1}}</td>
+        </tr>
+        <tr>
+            <th>Mobile:</th>
+            <td>{{CONT_PER_MOBILE_1}}</td>
+        </tr>
+        <tr>
+            <th>E-mail ID:</th>
+            <td>{{CONT_PER_EMAIL_1}}</td>
+        </tr>
+    </table>
+
+    <h4>Details of MSKVY Generation project:</h4>
+    <table class="table-justify table-fixed-50 ">
+        <tr>
+            <th>Project Capacity (MW):</th>
+            <td>{{PROJECT_CAPACITY_MW}}</td>
+        </tr>
+        <tr>
+            <th>Project Location:</th>
+            <td>{{PROJECT_LOC}}</td>
+        </tr>
+        <tr>
+            <th>Project District:</th>
+            <td>{{PROJECT_DISTRICT}}</td>
+        </tr>
+        <tr>
+            <th>Project Latitude &amp; Longitude:</th>
+            <td>{{LAT}} {{Longt}}</td>
+        </tr>
+    </table>
+
+    <h4>Details Point of Injection:</h4>
+    <table class="table-justify table-fixed-50 ">
+        <tr>
+            <th>Name of Transmission Licensee with whom system connection is required:</th>
+            <td>{{NAME_OF_TRAN_LIC}}</td>
+        </tr>
+        <tr>
+            <th>Name of EHV Sub-Station or EHV Line to which Project is being inter-connected:</th>
+            <td>{{NAME_OF_EHV_SS}}</td>
+        </tr>
+        <tr>
+            <th>Voltage Level of inter - connection:</th>
+            <td>{{VOLT_LVL_INTER}}</td>
+        </tr>
+        <tr>
+            <th>Details of inter-connection arrangement (S/C or D/C, feeder length in Km., conductor type):</th>
+            <td>{{DET_OF_INTER_CON}}</td>
+        </tr>
+        <tr>
+            <th>Generation Voltage and Step-up voltage (KV):</th>
+            <td>{{GEN_VOLT_STEPUP_VOLT}}</td>
+        </tr>
+        <tr>
+            <th>Details of feeder protection on outgoing feeders to be connected to Transmission Licensee system for evacuation of power:</th>
+            <td>{{DET_FEEDER_PROT}}</td>
+        </tr>
+    </table>
+
+    <div class="page-break"></div>
+    <h4>Commisioning schedule &amp; COD units:</h4>
+    <table class="table-sm table-center ">
+        <thead>
+            <tr>
+                <th>Unit No</th>
+                <th>Unit Size</th>
+                <th>Date of Work commencement</th>
+                <th>Work completion date</th>
+                <th>Date of Synchronization on (Scheduled)</th>
+                <th>Scheduled Commercial operation Date(COD)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{CommDet}}
+        </tbody>
+    </table>
+
+    <h4>Certification &amp; Confirmation:</h4>
+    <table class="table-sm table-justify ">
+        <thead>
+            <tr>
+                <th>Certification Detail</th>
+                <th>Answer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{CertDet}}
+        </tbody>
+    </table>
+</body>
+</html>

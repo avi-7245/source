@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>DEEMED GRID CONNECTIVITY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .content {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .border {
+            border: 2px solid black;
+        }
+
+        .recipient-info,
+        th {
+            text-align: left;
+        }
+
+        th {
+            width: 200px;
+            text-align: left;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        .date {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .signature td {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h3>MAHARASHTRA STATE ELECTRICITY TRANSMISSION CO. LTD.</h3>
+        <p>CIN No.: U40109MH2005SGC153646</p>
+    </div>
+
+    <table class="border">
+        <tr>
+            <th>Name of Office</th>
+            <td><b>:</b></td>
+            <td><b><i> Chief Engineer (State Transmission Utility)</i></b></td>
+        </tr>
+        <tr>
+            <th valign="top">Office Address</th>
+            <td valign="top"><b>:</b></td>
+            <td align="justify">
+                4th floor, 'A'wing, Prakashganga, MSETCL, Plot C -19, E - Block,BKC, Bandra (E), Mumbai
+                - 400051
+            </td>
+        </tr>
+        <tr>
+            <th>Contact No</th>
+            <td><b>:</b></td>
+            <td>(O) 022 - 26595176, (P) 26595175</td>
+        </tr>
+        <tr>
+            <th>Email Id</th>
+            <td><b>:</b></td>
+            <td>cestu@mahatransco.in</td>
+        </tr>
+        <tr>
+            <th>Website</th>
+            <td><b>:</b></td>
+            <td>www.mahatransco.in</td>
+        </tr>
+    </table>
+    <table width="100%" style="margin-top: 10px; margin-bottom: 10px;">
+        <tr>
+            <td align="left"><b>MSETCL/STU/MSKVY/DeemedGC/{{ApplicationNo}}</b></td>
+            <td align="right"><b>Date: {{ApprovalDate}}</b></td>
+        </tr>
+    </table>
+
+    <div class="header">
+        <h2><u><i>DEEMED GRID CONNECTIVITY</i></u></h2>
+    </div>
+    <div class="recipient-info">
+        <p>To,</p>
+        <p><b>{{dsDeemed_Table.SPV_Name}}</b><br />{{dsDeemed_Table.Add_correspondence}}</p>
+    </div>
+    <div class="content">
+        <p><b>Sub.:</b>{{dsDeemed_Data.subject}}</p>
+        <p>Dear Sirs,</p>
+        <p>
+            In context to the above subject, you have applied for Grid Connectivity to
+            {{dsDeemed_Table.Quantum_power_injected_MW}} MW Solar Power Project proposed under Mukhyamantri Saur Krishi
+            Vahini Yojana - 2.0 through MEDA’s Single Window Portal for online grid connectivity.
+        </p>
+        <p><b>{{dsDeemed_Data.MsgData}}</b></p>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="content">
+        <p><b>Sub.:</b>{{dsDeemed_Data.subject}}</p>
+        <hr />
+        <p>
+            Please note that this is Deemed Grid Connectivity &amp; detailed Grid Connectivity will be issued only after
+            payment of 99,900/- towards Processing Fee and submission of PPA for said project.
+        </p>
+        <p>Thanking you.</p>
+    </div>
+
+    <table class="signature">
+        <tr>
+            <td></td>
+            <td></td>
+            <td align="center">
+                <p>Yours Faithfully,</p>
+                <p>Sd/-</p>
+                <span>{{dsDeemed_EmpData.EMP_NAME}}</span>
+                <br />
+                <b>Chief Engineer (STU)</b>
+            </td>
+        </tr>
+    </table>
+
+    <br /> <br /> <br />
+    <div class="content">
+        <h4>Copy s.w.r.s. to:</h4>
+        <ol>
+            <li>The Chairman and Managing Director, C. O., MSETCL, Mumbai</li>
+            <li>
+                The Director General, MEDA, Aundh Road, Opposite Spicer College,Near Commissionerate of Animal
+                Husbandry, Aundh, Pune - 411007
+            </li>
+            <li>The Director (Operations) C. O., MSETCL, Mumbai</li>
+        </ol>
+
+        <h4>Copy f.w.c. to:</h4>
+        <ol>
+            <li>The Chief Engineer, MSLDC, Airol</li>
+            <li>The Chief Engineer (Project-Schemes) C. O., MSETCL, Mumbai</li>
+            <li>The Chief Engineer, EHV PC O&amp;M Zone, MSETCL: {{dsDeemed_Table.ZONE}}</li>
+            <li>The Chief Engineer (Renewable Energy), MSEDCL, Prakashgad, Mumbai</li>
+            <li>The Chief Engineer, Zone: {{dsDeemed_FWC.zone_name}}, MSEDCL</li>
+        </ol>
+    </div>
+
+</body>
+
+</html>

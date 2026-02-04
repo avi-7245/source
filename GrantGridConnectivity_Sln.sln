@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{A36E6E4F-8480-452A-86C2-0AFBEC12EB9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F33AD0F4-69DA-4724-88F1-EB2312763CCF} = {F33AD0F4-69DA-4724-88F1-EB2312763CCF}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GGCService", "GGCService\", "{F33AD0F4-69DA-4724-88F1-EB2312763CCF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/GGCService"
+		Debug.AspNetCompiler.PhysicalPath = "GGCService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GGCService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/GGCService"
+		Release.AspNetCompiler.PhysicalPath = "GGCService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GGCService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54972"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGC", "GGC\GGC.csproj", "{3F8D308D-05CA-46CE-825E-44D9E7CDE833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36E6E4F-8480-452A-86C2-0AFBEC12EB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36E6E4F-8480-452A-86C2-0AFBEC12EB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36E6E4F-8480-452A-86C2-0AFBEC12EB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36E6E4F-8480-452A-86C2-0AFBEC12EB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33AD0F4-69DA-4724-88F1-EB2312763CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33AD0F4-69DA-4724-88F1-EB2312763CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33AD0F4-69DA-4724-88F1-EB2312763CCF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33AD0F4-69DA-4724-88F1-EB2312763CCF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3F8D308D-05CA-46CE-825E-44D9E7CDE833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8D308D-05CA-46CE-825E-44D9E7CDE833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8D308D-05CA-46CE-825E-44D9E7CDE833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8D308D-05CA-46CE-825E-44D9E7CDE833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC108AA6-08E3-4C24-8EC5-164C1410CCFE}
+	EndGlobalSection
+EndGlobal

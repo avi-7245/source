@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SRNO" type="xs:int" minOccurs="0" />
+              <xs:element name="ApplicationNo" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDAProjectID" type="xs:string" minOccurs="0" />
+              <xs:element name="MerchantID" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="TxnAmount" type="xs:float" minOccurs="0" />
+              <xs:element name="TxnDate" type="xs:string" minOccurs="0" />
+              <xs:element name="TxnNo" type="xs:string" minOccurs="0" />
+              <xs:element name="status" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentType" type="xs:string" minOccurs="0" />
+              <xs:element name="ORIGINALSTATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="ORDERNUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="AuthStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="StatusReason" type="xs:string" minOccurs="0" />
+              <xs:element name="IsRefund" type="xs:string" minOccurs="0" />
+              <xs:element name="RefundAmount" type="xs:float" minOccurs="0" />
+              <xs:element name="IsPayMentApproveFin" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentApproveByFin" type="xs:string" minOccurs="0" />
+              <xs:element name="IsPayMentApproveSTU" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentApproveBySTU" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedDt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdatedDt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="typeofpay" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

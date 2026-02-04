@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GRID CONNECTIVITY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.3;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .content {
+            text-align: justify;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .border {
+            border: 2px solid black;
+        }
+
+
+        .recipient-info {
+            text-align: left;
+        }
+
+        table.gc-table-header th {
+            width: 200px;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .date {
+            text-align: right;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        ol.annexure-item {
+            list-style-type: none;
+        }
+
+        table.annexure-b thead {
+            background-color: gray;
+        }
+
+        .hide-border {
+            border: none;
+        }
+
+        .hide-border-top {
+            border-top: none;
+        }
+
+        .hide-border-right {
+            border-right: none;
+        }
+
+        .hide-border-bottom {
+            border-bottom: none;
+        }
+
+        .hide-border-left {
+            border-left: none;
+        }
+
+        .hide-border-left-right {
+            border-left: none;
+            border-right: none;
+        }
+
+        table.annexure-c-1, table.annexure-c-2, table.annexure-b {
+            font-size: smaller;
+        }
+
+            table.annexure-c-1 tr:nth-child(2) td {
+                width: 150px;
+            }
+
+        .selector {
+            padding: 10px 0px;
+        }
+
+        .signature td {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>MAHARASHTRA STATE ELECTRICITY TRANSMISSION CO. LTD.</h3>
+        <p>CIN No.: U40109MH2005SGC153646</p>
+    </div>
+
+    <table class="gc-table-header border">
+        <tr>
+            <th>Name of Office</th>
+            <td><b>:</b></td>
+            <td><b><i> Chief Engineer (State Transmission Utility)</i></b></td>
+        </tr>
+        <tr>
+            <th valign="top">Office Address</th>
+            <td valign="top"><b>:</b></td>
+            <td align="justify">4th floor, 'A'wing, Prakashganga, MSETCL, Plot C -19, E - Block,BKC, Bandra (E), Mumbai - 400051</td>
+        </tr>
+        <tr>
+            <th>Contact No</th>
+            <td><b>:</b></td>
+            <td>(O) 022 - 26595176, (P) 26595175</td>
+        </tr>
+        <tr>
+            <th>Email Id</th>
+            <td><b>:</b></td>
+            <td>cestu@mahatransco.in</td>
+        </tr>
+        <tr>
+            <th>Website</th>
+            <td><b>:</b></td>
+            <td>www.mahatransco.in</td>
+        </tr>
+    </table>
+    <!--   <div class="date">
+           <p><b>Date : {{Date}}</b></p>
+       </div>-->
+    <table width="100%" style="margin-top: 10px; margin-bottom: 10px;">
+        <tr>
+            <td align="left"><b>MSETCL/STU/MSKVY/GC/{{ApplicationNo}}</b></td>
+            <td align="right"><b>Date: {{Date}}</b></td>
+        </tr>
+    </table>
+    <div class="header">
+        <h2><u><i>GRID CONNECTIVITY</i></u></h2>
+    </div>
+    <div class="recipient-info">
+        <p>To,</p>
+        <p><b>{{SPV_Name}}</b><br />{{Add_correspondence}}</p>
+    </div>
+    <div class="content">
+        <p><b>Sub :.</b>{{Subject}}</p>
+        <p>Dear Sirs,</p>
+        <p>In context to the above subject, you have applied for Grid Connectivity to {{Quantum_power_injected_MW}} MW Solar Power Project proposed under Mukhyamantri Saur Krishi Vahini Yojana - 2.0 through MEDA’s Single Window Portal for online grid connectivity.</p>
+        <p><b>{{MsgData}}</b></p>
+
+
+    </div>
+    <div class="page-break"></div>
+    <div class="content">
+        <p><b>For inter-connecting the said solar power project you will have to complete the following scope of works at your own cost as per the technical standards and under the supervision of MSETCL (as per Section 10 of the Indian Electricity Act - 2003):</b></p>
+        <p>
+            <ol class="alpha" type="a">
+                <li>Construction of {{STU_INJECTION_VOLTAGE}} kV S/C line with suitable conductor from Solar Project to MSETCL’s {{STU_POINT_OF_INJECT}} Substation with bays.</li>
+                <li>Any modification/suggestion/essential additional work, if any for proper evacuation of power suggested by C. E., {{ZONE}} shall be binding on M/s {{SPV_Name}}</li>
+                <li>Suitable ABT metering arrangement at MSETCL’s{{STU_POINT_OF_INJECT}} Substation approved by the Chief Engineer (MSLDC), Airoli, Navi Mumbai and S. E. TCC, {{ZONE}}. ABT metering arrangement should be alongwith the AMR facility with integration to control center at MSLDC Airoli as per MSLDC’s requirements and in line with MERC’s Metering Code - 2019</li>
+                <li>Visibility of generation to MSLDC for real time monitoring using SCADA/ RTU-DC etc., as per the requirements of the Chief Engineer (MSLDC), Airoli, Navi Mumbai</li>
+            </ol>
+        </p>
+        <p>To fulfil the N-1 criteria for the transmission line, to interconnect the said project, {{STU_INJECTION_VOLTAGE}} kV Double Circuit (D/C) line is to be erected. However, considering the small project capacity Grid Connectivity through the {{STU_INJECTION_VOLTAGE}} kV Single Circuit (S/C) line. As per CEA’s Transmission Planning Criterion, ‘N-1’ may not be made applicable to the immediate radially connected evacuation arrangement for Solar Power Projects.</p>
+        <p>{{MsgData2}}</p>
+    </div>
+
+    <div class="content">
+        <p><i><b>The Grid Connectivity is valid for <u>12 MONTHS</u> from the date of this letter.</b></i></p>
+        <span>Kindly note that following Annexures are integral part of this Grid Connectivity:</span><br />
+        <span>Annexure A: General Terms and Conditions for Grid Connectivity</span><br />
+        <span>Annexure B: Land parcels details</span><br />
+        <span>Annexure C: Metering specifications</span><br />
+        <span>Annexure D: ABT/AMR metering specifications</span><br />
+        <p>Thanking you.</p>
+    </div>
+
+    <table class="signature">
+        <tr>
+            <td></td>
+            <td></td>
+            <td align="center">
+                <p>Yours Faithfully,</p>
+                <p>Sd/-</p>
+                <span>{{EMP_NAME}}</span>
+                <br />
+                <b>Chief Engineer (STU)</b>
+            </td>
+        </tr>
+    </table>
+
+    <div class="page-break"></div>
+
+    <div class="content">
+        <h4>Copy s.w.r.s. to:</h4>
+        <ol class="numeric">
+            <li>The Chairman and Managing Director, C. O., MSETCL, Mumbai</li>
+            <li>The Director General, MEDA, Aundh Road, Opposite Spicer College,Near Commissionerate of Animal Husbandry, Aundh, Pune - 411007 </li>
+            <li>The Director (Operations) C. O., MSETCL, Mumbai</li>
+        </ol>
+
+        <h4>Copy f.w.c. to:</h4>
+        <ol class="numeric">
+            <li>The Chief Engineer, MSLDC, Airol</li>
+            <li>The Chief Engineer (Project-Schemes) C. O., MSETCL, Mumbai</li>
+            <li>The Chief Engineer, EHV PC O&amp;M Zone, MSETCL: {{ZONE}}</li>
+            <li>The Chief Engineer (Renewable Energy), MSEDCL, Prakashgad, Mumbai</li>
+            <li>The Chief Engineer, Zone: {{ZONE_NAME}}, MSEDCL</li>
+        </ol>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="header">
+        <p><u><b>Annexure A</b></u></p>
+        <p><u><b>General Terms and Conditions for Grid Connectivity</b></u></p>
+    </div>
+
+    <ol class="numeric content">
+        <li>
+            The Grid Connectivity for the said Solar Power Project shall be governed by following Terms and Conditions. Please note that:
+            <ol class="roman" type="i">
+                <li>The supervision charges on evacuation arrangement will be applicable as per the RE Policy 2020 and methodology there under.</li>
+                <li>Developer/SPV shall obtain required clearances from the statutory authorities in the area at their own cost.</li>
+                <li>The claims for deemed generation shall be as per terms &amp; condition of PPA.</li>
+                <li>Developer/SPV shall compensate for any damages caused to the allied equipment/ lines of MSETCL on account of malfunctioning of the said Solar Power project and metering arrangement related with system.</li>
+                <li>The ownership of the assets upto interconnection point including metering arrangement needs to be handed over to MSETCL without any cost implication to MSETCL. The evacuation network beyond interconnection point shall be owned, operated and maintained by developer.</li>
+                <li>Developer/SPV will have to commission the Project within this time frame. In case, if Developer/SPV fail to complete the said Project within this time frame, Developer/SPV will have to apply for time extension, before 30 (Thirty) days from the date of expiry of validity period, along with the reasons for delay &amp; documentary evidences supporting the progress of your said Project. Further, only two extensions of six months each shall be granted as after assessment of work progress. If project is not completed within time period of 2nd time extension, the Grid Connectivity will be cancelled and Commitment Fee for the same will be forfeited.</li>
+                <li>If Developer/SPV do not apply for time extension, it will be presumed that Developer/SPV are not interested in development of the Project and the Grid Connectivity shall be treated as cancelled &amp; Commitment Fee will be forfeited. No further correspondence shall be made in this regards. If required, Developer/SPV will have to apply afresh for grid connectivity and will not have any precedence over other interested applicants in that area.</li>
+                <li>As per CEA Technical standards for connectivity to the Grid (Amendment) Regulation 2019, measurement of Harmonics, Direct Current (DC) injection &amp; Flicker is to be carried by RE generators at Point of Common Coupling (PCC) at least once in a year. Thus, after synchronization of project, Developer/SPV will have to submit the said parameter measurement results to Chief Engineer (MSLDC), Airoli, Navi Mumbai at least once in a year.</li>
+                <li>As per MERC (Forecasting, scheduling &amp; Deviation settlement for Solar &amp; Wind Generation) Regulation 2018, appointment of QCA, payment of Corpus amount to MSLDC through QCA etc. are required to be carried out before synchronization of the generation. Developer/SPV are requested to take note of this and coordinate the required activities with MSLDC before synchronization of generation.</li>
+                <li>As per CEA Regulations “Technical Standards for Connectivity to the Grid (Amendment) Regulations, 2019” Dt. 06.02.2019, Section 11, the user or the requester shall get its generating unit or station having capacity of 0.5MW or above registered on e-portal <a href="https://egen.cea.gov.in">https://egen.cea.gov.in</a> and get online generated unique registration number for grant of grid connectivity. Hence, Developer/SPV shall get your generating unit registered as above and submit the document quoting the unique registration number while seeking Final Grid Connectivity.</li>
+            </ol>
+        </li>
+        <li>
+            Before synchronization of the Project, Developer/SPV will have to submit the following documents through SWP and seek Final Grid Connectivity for the said Solar Power Project. Please note that, the Final Grid Connectivity will be granted after evaluation of prevailing system conditions. Documents to be submitted to through SWP before synchronization for seeking Final Grid Connectivity to the Solar Power Project are:
+            <ol class="alpha" type="a">
+                <li>Online Application through SWP for connection to Intra-State transmission system.</li>
+                <li>Work Completion Report (along with ABT Meters, SCADA/RTU-DC installation &amp; commissioning report), as per the Scope of Works mentioned above from concerned Superintending Engineer.</li>
+                <li>Connection Agreement to be executed with the Chief Engineer EHV PC O&amp;M Zone, MSETCL, {{ZONE}}.</li>
+                <li>Site Responsibility Schedule along with equipment details executed with MSETCL.</li>
+                <li>Approved Copy of Single Line Diagram and layout from the Chief Engineer (MSLDC), Airoli, Navi Mumbai and Chief Engineer, EHV PC O&amp;M Zone, MSETCL, {{ZONE}}.</li>
+                <li>Certificate from the Chief Engineer (MSLDC), Airoli, Navi Mumbai, towards confirmation of AMR facility integration control center at MSLDC.</li>
+                <li>Certificate from the Chief Engineer (MSLDC), Airoli, Navi Mumbai, towards visibility of Generation to MSLDC for real time monitoring.</li>
+                <li>Consent from the concerned Distribution Licensee for drawal of power required for Start-up and auxiliary consumption from the network.</li>
+                <li>Document showing unique registration number generated after registering the above generating unit with CEA online registration portal.</li>
+            </ol>
+        </li>
+        <li>
+            The Grid Connectivity for the said Solar Power Project shall be governed by:
+            <ol class="alpha" type="a">
+                <li>Maharashtra Electricity Grid Code (MEGC)- 2020</li>
+                <li>CERC Indian Electricity Grid Code – 2010</li>
+                <li>Indian Electricity Act. 2003</li>
+                <li>Renewable Energy Policy of Government of Maharashtra - 2020</li>
+                <li>Methodology for establishment of RE Projects of GoM Dt. 11/05/2022</li>
+                <li>MERC (Transmission Open Access) Regulations – 2016</li>
+                <li>Procedure for grant of Grid Connectivity to InSTS network</li>
+                <li>Amendments in regulations if any, issued by the appropriate commission from time to time</li>
+                <li>Amendments in Policy/Methodology if any, issued by the Govt. of Maharashtra from time to time.</li>
+                <li>GoM GRs related to Mukhyamantri Saur Krishi Vahini Yojana-2.0</li>
+            </ol>
+        </li>
+        <li>
+            The grid connectivity shall be governed by the following clauses of the MERC (Transmission Open Access) Regulations – 2016 and amendments thereunder:
+            <ol>
+                <li><b>Clause No. 6.5:</b> The grant of Connectivity <u>shall not by itself entitle an Applicant to interchange any power</u> through Open Access unless it obtains approval for Open Access.</li>
+                <li><b>Clause No. 6.6:</b> A Generator shall be permitted by MSLDC, subject to grid security considerations, to undertake testing, including full load testing, by injecting infirm power in to the grid before its commercial operation and prior to availing Open Access.</li>
+                <li><b>Clause No. 8.11:</b> The Nodal Agency <u>shall grant Medium Term Open Access or Short Term Open Access if the resultant power flow can be accommodated in the existing</u> Transmission System or the Transmission System under execution.</li>
+                <li><b>Clause No. 9.1:</b> The <u>Specific source of supply or destination of off-take</u>, as the case may be, <u>shall be intimated to the Nodal Agency at least three years prior to the intended date of availing Long-term Open Access</u>, or such other period estimated by the Nodal Agency as required for augmentation of the Transmission System, whichever is lesser.</li>
+            </ol>
+            Provided also that, where there is any change in the location of either the drawal point or the injection or an increase of more than ten percent in the quantum of power for Open Access using the InSTS, a fresh Application shall be made.
+        </li>
+        <li>In case of any contingencies and System Constraints, Developer/SPV and his investors will have to back down the generation as per system conditions as per the directives from the State Load Dispatch Centre and MSETCL will not be responsible for the said generation loss and Developer/SPV and his investors shall not claim for the said loss of generation from MSETCL</li>
+        <li>Developer/SPV has to submit the quarterly progress report of execution of the Scope of Works.</li>
+    </ol>
+
+    <div class="page-break"></div>
+
+    <div class="header">
+        <p><u><b>Annexure B</b></u></p>
+        <p><u><b>Land parcels details</b></u></p>
+    </div>
+    <table class="annexure-b" border="1">
+        <thead>
+            <tr>
+                <th>District</th>
+                <th>Taluka</th>
+                <th>Village</th>
+                <th>Panchayat</th>
+                <th>Survey No</th>
+                <th>Sub Survey No</th>
+                <th>Distance From SS</th>
+                <th>Area</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{AnnexureBData}}
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <div class="header">
+        <p><u><b>Annexure C</b></u></p>
+        <p><u><b>Metering specifications</b></u></p>
+    </div>
+    <table border="1" class="annexure-c-1">
+        <thead>
+            <tr>
+                <td class="header" colspan="6"><b>METERING CT SPECIFICATIONS FOR MSKVY PROJECT <br /> (0.2S CLASS,-/54,BURDEN-10VA(CUBICLE)/15VA(OUTDOOR),SINGLE CORE SINGLE RATIO)</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2" align="center">11KV</th>
+                <th colspan="2" align="center">12KV</th>
+                <th colspan="2" align="center">33KV</th>
+            </tr>
+            <tr>
+                <td>1MW</td>
+                <td>50/5A</td>
+                <td>1MW-2MW</td>
+                <td>50/5A</td>
+                <td>1MW</td>
+                <td>25/5A</td>
+            </tr>
+            <tr>
+                <td>2MW</td>
+                <td>100/5A</td>
+                <td>3MW-4MW</td>
+                <td>100/5A</td>
+                <td>2MW-3MW</td>
+                <td>50/5A</td>
+            </tr>
+            <tr>
+                <td>3MW-4MW</td>
+                <td>200/5A</td>
+                <td>5MW-8MW</td>
+                <td>200/5A</td>
+                <td>4MW-6MW</td>
+                <td>100/5A</td>
+            </tr>
+            <tr>
+                <td>5MW-6MW</td>
+                <td>300/5A</td>
+                <td>9MW-13MW</td>
+                <td>300/5A</td>
+                <td>7MW-12MW</td>
+                <td>200/5A</td>
+            </tr>
+            <tr>
+                <td>7MW-8MW</td>
+                <td>400/5A</td>
+                <td>14MW-16MW</td>
+                <td>400/5A</td>
+                <td>13MW-19MW</td>
+                <td>300/5A</td>
+            </tr>
+            <tr>
+                <td>9MW-10MW</td>
+                <td>500/5A</td>
+                <td>17MW-20MW</td>
+                <td>500/5A</td>
+                <td>20MW-25MW</td>
+                <td>400/5A</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>26MW-30MW</td>
+                <td>500/5A</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="annexure-c-2 border">
+        <tr>
+            <th align="left" valign="top" style="width: 100px;">Metering PT</th>
+            <th align="left" valign="top" class="selector">:</th>
+            <th align="left" valign="top" class="selector">-</th>
+            <td colspan="1" align="justify" valign="top">(11/22/33KV)/&radic;3/110V/&radic;3,0.2 class,50VA,Single Core, Single Ratio</td>
+        </tr>
+        <tr>
+            <th align="left" valign="top">ENERGY METER</th>
+            <th align="left" valign="top" class="selector">:</th>
+            <th align="left" valign="top" class="selector">-</th>
+            <td colspan="1" align="justify" valign="top">ABT,Four Quadrant Import-Export Meter,CT ratio-/5A, 0.25 class, PT ratio-llKv/&radic;3/110V/&radic;3,3 X 63.5V, 50 Hz, 3 phase 4 wire (Neutral Solidly Grounded) {MSEDCL APPROVED}</td>
+        </tr>
+        <tr>
+            <th rowspan="2" align="left" valign="top">NOTE</th>
+            <th rowspan="2" align="left" valign="top" class="selector">:</th>
+            <th align="left" valign="top" class="selector">-</th>
+            <td align="justify" valign="top">CT Ratios are provided irrespective of SOP guidelines. Hon. MERC SOP guidelines shall be followed for grid connectivity.</td>
+        </tr>
+        <tr>
+            <th align="left" valign="top" class="selector">-</th>
+            <td align="justify" valign="top">Detailed Technical specifications are available on MSEDCL website.</td>
+        </tr>
+    </table>
+
+    <div class="page-break"></div>
+
+    <div class="header">
+        <p><u><b>Annexure D</b></u></p>
+        <p><u><b>ABT/AMR Metering Specifications MSETCL</b></u></p>
+    </div>
+
+    <div class="content">
+        <p>
+            The ABT/AMR Metering Specifications must adhere to Clause 12 –
+            "Specifications and Accuracy Limits" as outlined in the MERC-approved Metering Code 2019
+            for the Intra-State Transmission System in Maharashtra.
+        </p>
+
+        <p>
+            The MERC approved Metering Code 2019 can be accessed through the following link:
+        </p>
+
+        <p>
+            <a href="https://www.mahatransco.in/uploads/docs/Metering%20Code-2019%20for%20Intra-State%20Transmission%20System%20Maharashtra_13_12_2019.pdf" target="_blank">
+                https://www.mahatransco.in/uploads/docs/Metering%20Code-2019%20for%20Intra-State%20Transmission%20System%20Maharashtra_13_12_2019.pdf
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>
