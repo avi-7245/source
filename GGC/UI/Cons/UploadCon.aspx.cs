@@ -19,7 +19,7 @@ using GGC.WebService;
 using System.Reflection.Emit;
 using System.Data.SqlClient;
 using MySqlX.XDevAPI.Relational;
-using AjaxControlToolkit.Config;
+
 using Mysqlx.Resultset;
 
 namespace GGC.UI.Cons
